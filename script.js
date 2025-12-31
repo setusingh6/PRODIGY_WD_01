@@ -6,7 +6,7 @@
  
  
  function videoconanimation(){
- var videocon=document.querySelector("#video-container");
+ var videocon=document.querySelector("#img-container");
  var playbtn=document.querySelector("#play")
  videocon.addEventListener("mouseenter",function(){
       gsap.to(playbtn,{
